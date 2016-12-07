@@ -40,6 +40,8 @@ RUN sed -i -e "s/v3.4/edge/" /etc/apk/repositories && apk update && \
     php7-dom \
     php7-zip \
     php7-session \
+    php7-posix \
+    php7-pcntl \
     python \
     python-dev \
     py2-pip \
